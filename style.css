@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Calibri";
+}
+.fright{
+    float: right;
+}
+.fleft{
+    float: left;
+}
+#my-img{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+}
+#icon{
+    height:30px;
+    width: 30px;
+    padding-right: 20px;
+}
+.top-p{
+    padding-right: 20px;
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+}
+.top-p:hover{
+    text-decoration: underline;
+}
+nav{
+    font-size: 13px;
+    color: rgba(0,0,0,0.87);
+    margin-right: 25px;
+    margin-top: 20px;
+}
+#google-logo{
+    height:91px;
+    width:274px;
+    position: absolute;
+    top: 160px;
+    left: 623px;
+}
+#search-box{
+    width: 582px;
+    color: #222;
+    border: 1px solid #dfe1e5;
+    font-size: 13px;
+    padding: 14px;
+    border-radius: 24px;
+    position: absolute;
+    top: 280px;
+    left: 468px;
+    outline: none;
+    background:url("images/mike.png") right 20px center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+#search-box:hover,#search-box:focus{
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+#btn{
+    position: absolute;
+    top: 355px;
+    left: 616px;
+    display: inline-block;
+}
+
+.button{
+    background-color: #f2f2f2;
+    color: #5F6368;
+    font-size: 14px;
+    height: 36px;
+    padding: 0 16px;
+    background-image: linear-gradient(top,#f5f5f5,#f1f1f1);
+    border: 1px solid transparent;
+    box-shadow: 0 1px 1px rgba(0,0,0,0);
+    color: #222;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.button:hover{
+    background-image:linear-gradient(top,#f8f8f8,#f1f1f1);
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+#card{
+    width:285px;
+    padding: 28px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    position:absolute;
+    top: 55px;
+    right: 77px;
+    display: none;
+}
+.image{
+    height: 50px;
+    width: 50px;
+}
+.img-conatiner{
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+    padding: 5px;
+    padding-bottom : 15px;
+    color: rgba(0,0,0,0.87);
+}
+.img-conatiner:hover{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+#icon:hover{
+    cursor: pointer;
+}
+#icon:hover + #card{
+    display: block;
+}
+#dropdown{
+    display: inline-block;
+}
+#dropdown:hover #card{
+    display: block;
+}
+footer{
+    padding-top: 635px;
+}
+#bottom-country{
+    background-color: #f2f2f2;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding: 20px;
+    font-size: 16px;
+    color: rgba(0,0,0,0.5);
+}
+#bottom-services{
+    background-color: #f2f2f2;
+    overflow: hidden;
+    padding: 20px;
+    font-size: 16px;
+    color: rgba(0,0,0,0.5);
+}
+#bottom-services ul{
+    list-style-type: none;
+}
+li{
+    padding-right: 15px;
+}
